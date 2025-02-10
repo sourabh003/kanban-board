@@ -1,5 +1,5 @@
 import { CheckCircle2, Loader2, Plus, XCircle } from 'lucide-react';
-import { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Todo from './Todo';
 import { STATUSES } from '../utils/constants';
 import { createTodo, getTodos } from '../services/todo';
