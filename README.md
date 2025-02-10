@@ -43,6 +43,8 @@ There isn't any complex design pattern or logic is used. The project currently u
 
 ### Scope for improvement
 
+- The todo picking logic is not very efficient right now. If given more time, maybe it can be improved.
+
 - Due to time constraint, I'm not handling the order of the todos. Whenver moving them to different sections, it comes on top of all others. But this can be improved, we can track from the mouse position and add the todo on that particular position.
 
 - Sections are static for now, but they can be made dyanmic.
