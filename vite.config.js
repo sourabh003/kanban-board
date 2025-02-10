@@ -10,5 +10,5 @@ export default defineConfig({
 			plugins: [tailwindcss()],
 		},
     },
-    base: "sourabh003"
+    base: "/sourabh003/"
 });
