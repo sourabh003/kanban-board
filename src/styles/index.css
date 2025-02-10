@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--main-bg-color: #f3f4f6;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+
+	/* to disable the text selection */
+	-webkit-user-select: none; /* Chrome all / Safari all */
+	-moz-user-select: none; /* Firefox all */
+	-ms-user-select: none; /* IE 10+ */
+	user-select: none; /* Likely future */
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+	width: 8px; /* width of the entire scrollbar */
+	height: 12px;
+}
+::-webkit-scrollbar-track {
+	background: none; /* color of the tracking area */
+}
+::-webkit-scrollbar-thumb {
+	background-color: rgb(185, 183, 183); /* color of the scroll thumb */
+	border-radius: 20px; /* roundness of the scroll thumb */
+}
